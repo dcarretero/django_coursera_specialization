@@ -1,0 +1,49 @@
+#link {
+    text-align: center;
+    background-color:#0a4b33;
+    padding: 10px; /* Opcional: para agregar algo de espacio alrededor del texto */
+    position: absolute;
+    top:0%;
+    left: 50%;  
+}
+
+#link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold; /* Hace el texto negrita */
+    font-size: 20px; /* Tamaño de fuente opcional */
+}
+
+
+#one, #two, #three, #four {
+    position: absolute;
+    width: 25%; /* Ancho de cada caja */
+    padding: 10px; /* Espacio dentro de cada caja */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+    margin: 10px; /* Espacio entre cajas */
+}
+
+#one {
+    bottom: 10px;
+    right: 10px;
+    border: 10px solid blue; /* Borde amarillo */
+}
+
+#two {
+    top: 10px;
+    right: 10px;
+    border: 10px solid green; /* Borde azul */
+}
+
+#three {
+    top: 10px;
+    left: 10px;
+    border: 10px solid orange; /* Borde rojo */
+}
+
+#four {
+    bottom: 10px;
+    left: 10px;
+    border: 10px solid yellow; /* Borde verde */
+}
+
